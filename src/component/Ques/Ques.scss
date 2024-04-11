@@ -1,0 +1,10 @@
+.Ques {
+  &__Desc {
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    &__Heading {
+      padding-left: 1em;
+    }
+  }
+}

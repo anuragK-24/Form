@@ -1,0 +1,36 @@
+.FormPuja {
+  margin: 2em;
+  border: 1px solid #e0e0e0;
+  border-radius: 1em;
+  padding: 1em;
+  background-color: #fcf2f8;
+  color: black;
+  &__Heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    &__Description {
+      padding: 2em;
+    }
+    &__TicketInfo {
+      min-width: 11em;
+      padding: 2em;
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  // styles for screens with a width of up to 768px
+  .FormPuja {
+    &__Heading {
+      flex-direction: column;
+      &__Description,
+      &__TicketInfo {
+        padding: 0.5em;
+      }
+    }
+
+  }
+}
