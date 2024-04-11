@@ -12,12 +12,16 @@
     &__Description {
       padding-right: 2em;
       padding-left: 2em;
+      h1 {
+        font-size: 2.2em;
+        line-height: 1.1;
+      }
     }
     &__TicketInfo {
       min-width: 11em;
       padding: 2em;
       text-align: center;
-      button{
+      button {
         background: black;
         color: white;
       }
@@ -35,6 +39,5 @@
         padding: 0.5em;
       }
     }
-
   }
 }
